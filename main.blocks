@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="iHn247Ux-BSpb:9bt*Nr" x="18" y="218"><statement name="HANDLER"><block type="controls_if" id="L8|u)kK}LK~.jcSoW$9e"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="d;2Jn}(VR_a*c,HD${6Y"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="E3=NAZRHTx:q*[Gs;Bt3"></block></value><value name="B"><shadow type="math_number" id="JeNITD3`B,-6hvY,lgOd"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="7%vL|/pGCUPswG1-NG;S"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="v?|E|fsjBPz(HL]q_7W0"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="controls_if" id="=A+NuBB}BdGjjMn1e6yF"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="RD/RKxAwpVAX!RDWB:9("><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="4O7_}I1NGf$EYL)XEz`y"></block></value><value name="B"><shadow type="math_number" id="qhEeEXAx4$5A~5hG!KEQ"><field name="NUM">110</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="rE7,N9*=X_euCRGi9VN3"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        # # # # # 
+        . . # # . 
+        . . # . .
+        `</field></block></statement></block></next></block></statement></block></statement></block><block type="pxt-on-start" id="B@8G_}7!~RdXaK{33gOo" x="601" y="211"></block><block type="device_forever" id="=)70_j?w~3.cY9fc01#b" x="533" y="336"></block></xml>
