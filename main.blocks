@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="iHn247Ux-BSpb:9bt*Nr" x="18" y="218"><statement name="HANDLER"><block type="controls_if" id="L8|u)kK}LK~.jcSoW$9e"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="d;2Jn}(VR_a*c,HD${6Y"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="E3=NAZRHTx:q*[Gs;Bt3"></block></value><value name="B"><shadow type="math_number" id="JeNITD3`B,-6hvY,lgOd"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="7%vL|/pGCUPswG1-NG;S"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="iHn247Ux-BSpb:9bt*Nr" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="L8|u)kK}LK~.jcSoW$9e"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="d;2Jn}(VR_a*c,HD${6Y"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="E3=NAZRHTx:q*[Gs;Bt3"></block></value><value name="B"><shadow type="math_number" id="JeNITD3`B,-6hvY,lgOd"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="7%vL|/pGCUPswG1-NG;S"><field name="LEDS">`
         . . # . . 
         . # # # . 
         # # # # # 
@@ -16,4 +16,4 @@
         # # # # # 
         . . # # . 
         . . # . .
-        `</field></block></statement></block></next></block></statement></block></statement></block><block type="pxt-on-start" id="B@8G_}7!~RdXaK{33gOo" x="601" y="211"></block><block type="device_forever" id="=)70_j?w~3.cY9fc01#b" x="533" y="336"></block></xml>
+        `</field></block></statement></block></next></block></statement></block></statement></block><block type="pxt-on-start" id="B@8G_}7!~RdXaK{33gOo" x="583" y="-7"></block><block type="device_forever" id="=)70_j?w~3.cY9fc01#b" x="515" y="118"></block></xml>
